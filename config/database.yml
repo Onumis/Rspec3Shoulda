@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: rspec3_shoulda_development
+
+test:
+  <<: *default
+  database: rspec3_shoulda_test
