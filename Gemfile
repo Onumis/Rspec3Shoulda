@@ -35,6 +35,7 @@ group :test do
   gem 'foreigner-matcher', require: nil
   gem 'launchy'
   gem 'rspec-rails', '~> 3.0.1'
+  gem 'rspec-collection_matchers'
   gem 'minitest'
   gem 'shoulda-matchers'
   gem 'spring-commands-rspec'
